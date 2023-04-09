@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris</title>
+    <link rel="stylesheet" href="/tetris/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper"> <!--the text-->
+      <div class="container"> <!--the text-->
+          <h1>TETRIS</h1>
+      </div>
+  </div>
+  <div class="all">
+    <div class="game">
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <div class="level">Level: <span id="level">0</span></div>
+      <div class="score">Score: <span id="score">0</span></div>
+      <div class="sides">
+        <div class="textSide"><img class="rotate" src="/rasmlar/rotate.png" alt="" width="70" height="70"><h2>Rotate</h2></div>
+        <div class="textSide"><img class="left" src="/rasmlar/left.png" alt="" width="70" height="70"><h2>Left</h2></div>
+        <div class="textSide"><img class="right" src="/rasmlar/right.png" alt="" width="70" height="70"><h2>Right</h2></div>
+        <div class="textSide"><img class="down" src="/rasmlar/down.png" alt="" width="70" height="70"><h2>Down</h2></div>
+      </div>
+        <div id="next-tetro"></div>
+    </div>
+    <div class="playground">
+      <div class="main"></div>
+      <div id="game-over">Game over</div>
+    </div>
+  </div>
+    <script src="/tetris/script.js".js"></script>
+  </body>
+</html>
