@@ -1,3 +1,3 @@
 #My Tetris 
 
-Demo: javastetrisgame.netlify.app
+Demo: https://javastetrisgame.netlify.app/
